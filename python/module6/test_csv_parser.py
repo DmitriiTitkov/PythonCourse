@@ -30,7 +30,7 @@ class TestCsvParser(TestCase):
         self.assertEqual(self.csv_parser.sell_over('Cosmetics', 9000), cosmetics)
 
     def test_get_country_profit(self):
-        self.assertEqual(self.csv_parser.get_country_profit("Nepal"), 1022269.6299999999)
+        self.assertEqual(self.csv_parser.get_country_profit("Nepal"), 1022269.63)
         self.assertEqual(self.csv_parser.get_country_profit("Armenia"), 1827634.7)
 
 

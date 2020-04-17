@@ -11,7 +11,7 @@ from python.module4.utils.delay import delay
 
 class TestDelayDec(unittest.TestCase):
     def setUp(self):
-        self.test_string = {"My shiny string", }
+        self.test_string = "My shiny string"
 
     def tearDown(self):
         pass

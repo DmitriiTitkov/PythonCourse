@@ -10,7 +10,7 @@ from python.module4.utils.html_dec import italic, bold, underline
 
 class TestHtmlDec(unittest.TestCase):
     def setUp(self):
-        self.test_string = {"My shiny string",}
+        self.test_string = "My shiny string"
 
     def tearDown(self):
         pass
